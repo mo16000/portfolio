@@ -1,4 +1,4 @@
-# Mohammad Mahmoodi — Portfolio
+# Seyed Mohammad Mahmoodi — Portfolio
 
 Personal portfolio for Product Designer and AI Product Designer roles.
 
@@ -6,7 +6,7 @@ Production: https://mo16000.github.io/portfolio/
 
 ## Running locally
 
-No build step or production dependencies. From the parent directory, run `python3 -m http.server 4173` and open `http://localhost:4173/portfolio/`.
+No build step or package installation. The self-hosted Lottie light runtime (5.13.0, MIT license included) handles the supplied animation. From the parent directory, run `python3 -m http.server 4173` and open `http://localhost:4173/portfolio/`.
 
 GitHub Pages publishes the `main` branch, repository root. `.nojekyll` preserves the static files. All local asset references are relative so the `/portfolio/` project path works correctly.
 
@@ -20,7 +20,7 @@ GitHub Pages publishes the `main` branch, repository root. `.nojekyll` preserves
 
 ## AI evaluator release
 
-The countdown targets **October 5, 2026, 00:00 America/Toronto** (`2026-10-05T00:00:00-04:00`). It uses ceiling days, displays 10 days on September 25, and updates once per minute. At the deadline it changes to “Coming soon / In preparation.” It does not invent a published case study or enable a nonexistent link.
+The countdown targets **October 5, 2026, 00:00 America/Toronto** (`2026-10-05T00:00:00-04:00`). It shows days, hours, minutes, and seconds and updates once per second. The visible date has been replaced by the timer. At the deadline it clamps at zero and the status changes to “Coming soon · In preparation.” It does not invent a published case study or enable a nonexistent link.
 
 When the case study is ready, replace the upcoming entry with its actual title, summary, and published URL. Update the sitemap date. No thumbnail is included for this entry.
 
@@ -30,7 +30,7 @@ The supplied gradient is the brand foundation, balanced with neutral surfaces an
 
 ## Accessibility and performance
 
-Semantic landmarks and headings, keyboard skip link, visible focus, native anchor navigation, descriptive image alternatives, reduced-motion support, 44px or larger navigation/link targets, and static content without JavaScript. Only the countdown and active navigation are enhanced with JavaScript. Project previews are lazy-loaded with width variants and explicit dimensions. The Latin font and small gradient are preloaded. No tracking scripts, external runtime font requests, or JavaScript framework.
+Semantic landmarks and headings, keyboard skip link, visible focus, native anchor navigation, descriptive image alternatives, reduced-motion support, 44px or larger navigation/link targets, and static content without JavaScript. The countdown, active navigation, and supplied Trigate Lottie preview are enhanced with JavaScript. The animation is loaded near the viewport, plays once, provides keyboard-accessible play/pause, pauses offscreen, and starts on a still frame for reduced-motion users. Its fallback is rendered from the supplied animation. Project previews are lazy-loaded with width variants and explicit dimensions. The Latin font and small gradient are preloaded. No tracking scripts, external runtime font requests, or JavaScript framework.
 
 ## Social preview
 
