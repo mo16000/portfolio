@@ -59,7 +59,7 @@ Sampled from the supplied image: pink `#f1a7d1`, coral `#fc9cbc`, peach `#f9d1c7
 
 Applied the 25 user annotations to names, headings, hero summary, project descriptions, metrics wording, experience, contact links, and capability numbering. The revised hero summary and the Canada reference use the exact text supplied by the user. “All provinces across Iran” refers to the previously sourced coverage of all 31 provinces.
 
-The supplied `sm.jpeg` is the hero portrait, optimized to 640px and 320px WebP versions. The photo itself is unchanged; responsive CSS crops the presentation.
+The supplied `seyed.png` replaces the earlier `sm.jpeg` hero portrait, optimized to 640px and 320px WebP versions. The photo itself is unchanged; responsive CSS presents it with a fully rounded, circular crop.
 
 The supplied `img.json` is the new Trigate preview. It is the same 1366 × 803, 5.5-second Lottie asset used in the source case study. The original JSON is copied unchanged. The static fallback is rendered from frame 160, the same still frame used for reduced-motion playback. The animation is played once and is user-controllable.
 
