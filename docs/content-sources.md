@@ -43,7 +43,7 @@ Images: `/assets/coaching/1r.svg` and `/assets/coaching/tr.png`, showing the red
 
 ## AI Startup Evaluator
 
-Title and October 5 release date supplied by the user. No responsibilities, product features, findings, outcomes, or preview image added. The countdown uses October 5, 2026 in Toronto time and never automatically implies publication.
+Title supplied by the user; release date moved to October 10 at the user’s request. No responsibilities, product features, findings, outcomes, or preview image added. The countdown uses October 10, 2026 in Toronto time and never automatically implies publication.
 
 ## Visual references
 

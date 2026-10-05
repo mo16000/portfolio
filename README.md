@@ -20,7 +20,7 @@ GitHub Pages publishes the `main` branch, repository root. `.nojekyll` preserves
 
 ## AI evaluator release
 
-The countdown targets **October 5, 2026, 00:00 America/Toronto** (`2026-10-05T00:00:00-04:00`). It shows days, hours, minutes, and seconds and updates once per second. The visible date has been replaced by the timer. At the deadline it clamps at zero and the status changes to “Coming soon · In preparation.” It does not invent a published case study or enable a nonexistent link.
+The countdown targets **October 10, 2026, 00:00 America/Toronto** (`2026-10-10T00:00:00-04:00`). It shows days, hours, minutes, and seconds and updates once per second. The visible date has been replaced by the timer. At the deadline it clamps at zero and the status changes to “Coming soon · In preparation.” It does not invent a published case study or enable a nonexistent link.
 
 When the case study is ready, replace the upcoming entry with its actual title, summary, and published URL. Update the sitemap date. No thumbnail is included for this entry.
 

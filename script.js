@@ -1,6 +1,6 @@
 'use strict';
 
-// Fixed release instant: October 5, 2026, midnight in Toronto (EDT).
+// Fixed release instant: October 10, 2026, midnight in Toronto (EDT).
 const countdown = document.querySelector('[data-release]');
 if (countdown) {
   const release = new Date(countdown.dataset.release).getTime();
@@ -19,7 +19,7 @@ if (countdown) {
     for (const [unit, value] of Object.entries(values)) fields[unit].textContent = String(value).padStart(2, '0');
     countdown.hidden = false;
     countdown.setAttribute('aria-label', total > 0
-      ? `${values.days} days, ${values.hours} hours, ${values.minutes} minutes, ${values.seconds} seconds until October 5, 2026, midnight Toronto time`
+      ? `${values.days} days, ${values.hours} hours, ${values.minutes} minutes, ${values.seconds} seconds until October 10, 2026, midnight Toronto time`
       : 'Countdown complete. Case study coming soon.');
     if (total === 0) {
       status.textContent = 'Coming soon · In preparation';
