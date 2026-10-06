@@ -23,6 +23,8 @@ https://mo16000.github.io/Trigate-Case-Study/
 
 Used for: founding designer role; programs, applications, learning, and coaching; MVP to white-label SaaS; 6,000+ startup users, 20+ innovation organizations, 31 provinces in Iran; design system and end-to-end ownership. These numbers describe platform reach, not personally attributable causal impact.
 
+On October 6, 2026, the user supplied updated portfolio figures: **7,000+ startup users**, **40+ innovation institutes**, and **60+ different programs**. These replace the earlier homepage figures; coverage remains all provinces across Iran. The user also supplied the revised preview caption, “From MVP to SaaS Platform.”
+
 Image: `/assets/source/image29.webp`, actual Trigate dashboard. Optimized copies included at 1428px and 640px widths.
 
 ## Co-founder Matching
