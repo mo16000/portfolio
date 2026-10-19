@@ -9,13 +9,13 @@ Source: supplied `Seyed Mohammad Mahmoodi.pdf`, both pages.
 Used for name, Toronto location, email, LinkedIn, Dribbble, 4+ years of experience, employment, education, work eligibility, and capability groups. The site links to an unchanged copy of the supplied resume.
 
 - TrigUP Accelerator: Founding Product Designer, December 2021–September 2025.
-- Enable App Inc.: Product Designer, November–December 2025; accessible service coordination dashboards for people with developmental disabilities and caregivers.
+- Enable App Inc.: Product Designer, October–November 2025 (corrected by the user on October 19, 2026); accessible service coordination dashboards for people with developmental disabilities and caregivers.
 - Laurentian University: Research Assistant, part-time, September 2025–present.
 - M.Sc. Computational Science, Laurentian University, May 2025–August 2026.
 - B.Eng. Computer Engineering, University of Qom, September 2019–February 2024.
 - Capabilities reflect the research, design, strategy, prototyping, and technical skills in the resume.
 
-The case study overview gives a Trigate timeline through November 2025. Employment dates follow the resume as requested; project metadata uses only 2021–2025. No research topic or employer-specific AI responsibility was inferred.
+The case study overview gives a Trigate timeline through November 2025. Employment dates follow the resume, with the user’s later correction for Enable App; project metadata uses only 2021–2025. No research topic or employer-specific AI responsibility was inferred.
 
 ## Trigate
 
@@ -45,7 +45,7 @@ Images: `/assets/coaching/1r.svg` and `/assets/coaching/tr.png`, showing the red
 
 ## AI Startup Evaluator
 
-Title supplied by the user; release date moved to October 20 at the user’s request. No responsibilities, product features, findings, outcomes, or preview image added. The countdown uses October 20, 2026 in Toronto time and never automatically implies publication.
+The upcoming case study section and countdown were removed at the user’s request on October 19, 2026.
 
 ## Visual references
 
@@ -64,5 +64,3 @@ Applied the 25 user annotations to names, headings, hero summary, project descri
 The supplied `seyed.png` replaces the earlier `sm.jpeg` hero portrait, optimized to 640px and 320px WebP versions. The photo itself is unchanged; responsive CSS presents it with a fully rounded, circular crop.
 
 The supplied `img.json` is the new Trigate preview. It is the same 1366 × 803, 5.5-second Lottie asset used in the source case study. The original JSON is copied unchanged. The static fallback is rendered from frame 160, the same still frame used for reduced-motion playback. The animation is played once and is user-controllable.
-
-The countdown targets the same Toronto midnight instant, now displaying days, hours, minutes, and seconds without a separate visible date. It clamps at zero and never implies publication automatically.

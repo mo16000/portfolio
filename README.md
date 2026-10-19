@@ -14,15 +14,9 @@ GitHub Pages publishes the `main` branch, repository root. `.nojekyll` preserves
 
 - `index.html`: content, links, metadata, and Person structured data.
 - `styles.css`: reusable palette and interaction tokens, layout, responsive rules, reduced motion.
-- `script.js`: upcoming case study countdown, current year, section navigation state.
+- `script.js`: current year, section navigation state, and Trigate animation playback.
 - `assets/`: optimized WebP project imagery, original resume PDF, self-hosted font and license, favicon, social preview.
 - `docs/content-sources.md`: factual source map and editorial decisions.
-
-## AI evaluator release
-
-The countdown targets **October 20, 2026, 00:00 America/Toronto** (`2026-10-20T00:00:00-04:00`). It shows days, hours, minutes, and seconds and updates once per second. The visible date has been replaced by the timer. At the deadline it clamps at zero and the status changes to “Coming soon · In preparation.” It does not invent a published case study or enable a nonexistent link.
-
-When the case study is ready, replace the upcoming entry with its actual title, summary, and published URL. Update the sitemap date. No thumbnail is included for this entry.
 
 ## Design
 
@@ -30,7 +24,7 @@ The supplied gradient is the brand foundation, balanced with neutral surfaces an
 
 ## Accessibility and performance
 
-Semantic landmarks and headings, keyboard skip link, visible focus, native anchor navigation, descriptive image alternatives, reduced-motion support, 44px or larger navigation/link targets, and static content without JavaScript. The countdown, active navigation, and supplied Trigate Lottie preview are enhanced with JavaScript. The animation is loaded near the viewport, plays once, provides keyboard-accessible play/pause, pauses offscreen, and starts on a still frame for reduced-motion users. Its fallback is rendered from the supplied animation. Project previews are lazy-loaded with width variants and explicit dimensions. The Latin font and small gradient are preloaded. No tracking scripts, external runtime font requests, or JavaScript framework.
+Semantic landmarks and headings, keyboard skip link, visible focus, native anchor navigation, descriptive image alternatives, reduced-motion support, 44px or larger navigation/link targets, and static content without JavaScript. The active navigation and supplied Trigate Lottie preview are enhanced with JavaScript. The animation is loaded near the viewport, plays once, provides keyboard-accessible play/pause, pauses offscreen, and starts on a still frame for reduced-motion users. Its fallback is rendered from the supplied animation. Project previews are lazy-loaded with width variants and explicit dimensions. The Latin font and small gradient are preloaded. No tracking scripts, external runtime font requests, or JavaScript framework.
 
 ## Social preview
 

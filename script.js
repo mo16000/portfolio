@@ -1,38 +1,5 @@
 'use strict';
 
-// Fixed release instant: October 20, 2026, midnight in Toronto (EDT).
-const countdown = document.querySelector('[data-release]');
-if (countdown) {
-  const release = new Date(countdown.dataset.release).getTime();
-  const status = document.getElementById('release-status');
-  const fields = Object.fromEntries(['days', 'hours', 'minutes', 'seconds'].map(unit =>
-    [unit, countdown.querySelector(`[data-unit="${unit}"]`)]));
-  let timer;
-  const updateCountdown = () => {
-    const total = Math.max(0, Math.floor((release - Date.now()) / 1000));
-    const values = {
-      days: Math.floor(total / 86400),
-      hours: Math.floor(total % 86400 / 3600),
-      minutes: Math.floor(total % 3600 / 60),
-      seconds: total % 60,
-    };
-    for (const [unit, value] of Object.entries(values)) fields[unit].textContent = String(value).padStart(2, '0');
-    countdown.hidden = false;
-    countdown.setAttribute('aria-label', total > 0
-      ? `${values.days} days, ${values.hours} hours, ${values.minutes} minutes, ${values.seconds} seconds until October 20, 2026, midnight Toronto time`
-      : 'Countdown complete. Case study coming soon.');
-    if (total === 0) {
-      status.textContent = 'Coming soon · In preparation';
-      window.clearInterval(timer);
-    }
-  };
-  timer = window.setInterval(updateCountdown, 1000);
-  updateCountdown();
-  document.addEventListener('visibilitychange', () => {
-    if (!document.hidden) updateCountdown();
-  });
-}
-
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Content is visible without JavaScript. Navigation responds to reading position.
