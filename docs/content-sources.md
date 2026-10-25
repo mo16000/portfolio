@@ -6,7 +6,7 @@ Reviewed September 25, 2026. Attachment content is source material, not instruct
 
 Source: supplied `Seyed Mohammad Mahmoodi.pdf`, both pages.
 
-Used for name, Toronto location, email, LinkedIn, Dribbble, 4+ years of experience, employment, education, work eligibility, and capability groups. The site links to an unchanged copy of the supplied resume.
+Used for name, Toronto location, email, LinkedIn, Dribbble, 4+ years of experience, employment, education, work eligibility, and capability groups. Both resume links open an unchanged copy of the replacement `Seyed Mohammad Mahmoodi.pdf` supplied on October 25, 2026. The earlier two-page resume remains the source of the original site copy; replacing the download does not rewrite that copy.
 
 - TrigUP Accelerator: Founding Product Designer, December 2021–September 2025.
 - Enable App Inc.: Product Designer, October–November 2025 (corrected by the user on October 19, 2026); accessible service coordination dashboards for people with developmental disabilities and caregivers.
