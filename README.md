@@ -28,4 +28,4 @@ Semantic landmarks and headings, keyboard skip link, visible focus, native ancho
 
 ## Social preview
 
-`assets/og.png` is a 1200 × 630 sharing card, linked with absolute GitHub Pages URLs in Open Graph and Twitter metadata. Generated once using the built-in ImageGen tool, with the supplied gradient as a color reference. Exact text: “Mohammad Mahmoodi” and “Product Designer · AI & B2B SaaS”.
+`assets/og-seyed-mohammad-mahmoodi.png` is the current 1200 × 630 sharing card, linked with absolute GitHub Pages URLs in Open Graph and Twitter metadata. The built-in ImageGen tool updated the original gradient card to the full name on October 25, 2026. Exact text: “Seyed Mohammad Mahmoodi” and “Product Designer · AI & B2B SaaS”. The new filename lets preview crawlers fetch the replacement image. See `docs/social-preview-edit.md` for the edit prompt.
